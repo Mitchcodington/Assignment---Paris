@@ -1,0 +1,582 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: rgba(1,78,88,255);
+    color: aliceblue;
+    line-height: 1.6;
+}
+
+.main-container {
+    width: 100%;
+    max-width:960;
+}
+
+img { max-width: 100%;
+      display: block;
+      filter: brightness(90%);}
+/* >>>>>>>>>>>>>Header Start>>>>>>>>>>>>>>>>>>>>>>> */
+
+header {font-family: poppins;
+        margin:2em 5em;}
+
+.h1-nav {display: flex;}
+
+#logo {color: rgb(207, 207, 15);}
+
+#home {margin-top: 2.2em;
+       margin-left: 5em;
+       border-bottom: solid rgb(207, 207, 15) 3px;}
+
+#about {
+    margin-left: 5em;
+    margin-top: 2.2em;
+}
+
+#contact-btn {
+    margin-left:45em;
+    margin-top: 1.8em;
+    width:15%;
+    height:40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: transparent;
+    color:aliceblue;
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact-btn:hover,
+#contact-btn:focus {
+    background:rgb(225, 241, 191);
+    color: #131313;
+}
+
+#contact-btn2:hover,
+#contact-btn2:focus {
+    background:rgb(225, 241, 191);
+    color: #131313;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+    background: rgb(225, 241, 191);
+    border-radius: 3px ;
+}
+
+
+
+
+.circle {
+    height: 150px;
+    border: 2px solid rgba(3,46,52,255);
+    width: 150px;
+    border-radius: 50%;
+    background:  rgba(3,46,52,255);
+    margin-left: 70em;}
+
+.small-circle {
+    height: 60px;
+    border: 2px solid rgb(207, 207, 15);
+    width: 60px;
+    border-radius: 50%;
+    background:rgb(207, 207, 15);
+    margin-left:4.55em;
+    position: relative;
+    top:31.8%;
+    left: -30px;}
+
+/* ######### Header End ########################################## */
+
+/* >>>>>>>>> Class Section One Start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.find-the-talent-bold {
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins;
+    margin:2em 5em;
+}
+
+
+
+#find-d-best-para {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2.8em;}
+
+#sec1-second-para {
+    margin-top: 11em;
+    margin-right: 1em;
+}
+
+
+#talent {
+    color: rgb(207, 207, 15);
+}
+
+#border{
+    border-top: solid rgb(10, 209, 149) 8px;
+    width: 15%;
+}
+
+#geos {
+    margin-left: 4em;
+}
+
+#geo4 {
+    margin-left: 40em;}
+/* ######### Class Section One Ends############################### */
+
+/* >>>>>>>>> Class Section Two Starts >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+ .section2-fullwidth {
+    background: rgba(3,46,52,255);
+    margin-top: 0px;
+    padding-top: 0px;}
+
+.section2 {display: flex;}
+
+
+   
+
+#border2{
+    border-top: solid rgb(10, 209, 149) 8px;
+    width: 5%;
+    margin:2em 5em;
+}
+
+#build-manage {
+    font-family: poppins;
+    font-size: 2em;
+    margin-left: 2.5em;
+}
+
+.headshot {
+    display: flex;
+    margin:2em 5.5em;
+    
+}
+
+.settings{
+    display: flex;
+    margin-right: 1em;
+    margin:2em 5em;
+    
+}
+
+
+.monitoring {
+    display: flex; 
+    margin:2em 5em;
+}
+
+.vector {
+    margin-left: 12em;
+    text-align: center;
+    margin-top: 1.6em;
+    filter: drop-shadow(10px 10px 10px rgb(10, 209, 149))
+}
+
+
+.section2-para {
+    margin-left: 2em;
+    font-family: poppins;
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+
+
+#exp-easy-enhance-span {
+   line-height: 2em;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: poppins;
+    color:rgb(221, 10, 116)
+}
+
+
+#geo3 {
+    margin-left: 5em;
+}
+
+/* ##################### SECTION TWO ENDS########################################## */
+
+/* >>>>>>>>>>>>>>>>>>>> SECTION THREE STARTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.the-three-para {
+    display: flex;
+    justify-content: space-between;
+    margin:2em 5em;
+    
+}
+
+ #sec3-head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: poppins;
+    margin:2em 5em;
+ }
+
+ #quotation1 {
+    margin-bottom: 16em;
+ }
+
+#names-bold1 {
+    font-family: poppins;
+    margin-left: 5.9em;
+    padding-top: 3em;
+}
+
+#position1 {
+    margin-left: 2.5em;
+}
+
+#img1 {
+    margin-left:7em;
+    margin-top: 1em;  
+   
+}
+
+.img {
+    vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: center;
+}
+
+
+#names-bold2 {
+    font-family: poppins;
+    margin-left: 9em;
+    padding-top: 3em;
+}
+
+#position2 {
+    margin-left: 8em;
+}
+
+#img2 {
+    padding-left:11em;
+    margin-top: 1em;  
+   
+}
+
+
+#names-bold3 {
+    font-family: poppins;
+    margin-left: 9em;
+    padding-top: 3em;
+}
+
+#position3 {
+    margin-left: 7.5em;
+}
+
+#img3 {
+    margin-left:11em;
+    margin-top: 1em;  
+}
+
+
+.img {
+    vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.sec3-para {
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    background-image: url("quote.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center -10px;
+}
+
+
+/* ############# END SECTION THREE############################## */
+
+/* >>>>>>>>>>>>> FOOTER ONE STARTS~>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.ready-footer {
+   max-width: 1800px;
+    margin-top: 3em;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: poppins;
+    background:rgba(246,126,127,255); 
+    color: rgba(1,78,88,255);  
+}
+
+.inner {
+    width: 100%;
+    margin-left: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-btn2 {
+   margin-right: 19em;
+    margin-top: 2.2em;
+    width:10%;
+    height:8vh;
+    border-radius: 20px;
+    background: transparent;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    font-family: poppins;
+    padding-bottom: 0px;
+    margin-left: 7em;
+}
+
+
+ #address {
+    margin-right: 7em;
+    
+ }
+
+
+ .socials {
+    display: flex;
+    justify-content:end;
+    margin-bottom: 3em;
+    margin-right: 7em;
+    margin-top: 0px;
+ }
+
+
+ #facebook {margin-right: 2em;}
+
+
+
+ #pin { margin-right: 2em;}
+
+ #twit { margin-right: 2em;}
+
+
+
+#about-footer { margin-left: 2em;}
+
+
+/* ........MEDIA START.................. */
+
+@media (max-width: 900px) {
+    .h1-nav {
+      margin-left: 0px;
+     font-size: 0.7rem;
+    }
+    #sec1-second-para {
+        margin-top:0;  
+       }
+
+       .section2-para {
+        font-size: 0.7rem;  
+        
+      }
+
+       #find-d-best-para {
+           margin-top: 2em;
+            font-size: 1.5rem;
+           margin-bottom: 0;
+           padding-bottom: 0%;  
+          }
+          .section2 {
+            flex-direction: column; 
+            align-items: center;
+            padding-right: 0px;
+           }
+           #build-manage {
+       
+            margin-top: 2em;
+            font-size: 1.5rem; 
+            padding-right: 2em;
+          }
+          .settings, .monitoring, .headshot {
+            padding-right: 8em;
+         }
+
+         #names-bold1{
+            margin-left: 0px;
+         font-size: 1rem; }
+         #position1 {
+             margin-left: 0px;
+             margin-right: .80em;}
+             #img1 {margin-left:14em;} 
+
+         #names-bold2{
+            margin-left: 0px; }
+         #position2 {
+             margin-left: 0px;}
+            
+             #img2 {margin-left:3em;}  
+
+         #names-bold3{
+            margin-left: 0px; }
+         #position3 {
+             margin-left: 0px;}
+            
+             #img3 {margin-left:14em;} 
+
+             .sec3-para {
+                font-size: 1rem;
+                width:90%;
+               margin-right: 0;
+               margin-left: 1em;
+                 
+             }
+             .the-three-para {
+                flex-direction: column;
+                 
+             }
+             .set1 {
+                 text-align: center;
+                  
+              }
+              #sec3-head {
+                 font-size: 1.2rem;
+                  
+              }}
+
+
+@media (max-width: 1300px) {
+    #contact-btn {
+      margin-left: 25em;
+      margin-top: 3em;
+    }
+    .main-container {
+        margin-left: 0em;
+        padding-left: 0em;
+        font-size: 0.7rem;
+        
+      }
+}
+
+@media (max-width: 1000px) {
+    #contact-btn {
+      margin-left: 11em;
+      margin-top: 3em;
+    }
+}
+
+@media (max-width: 950px) {
+    #contact-btn {
+      margin-left: 16em;
+      margin-top: 2.5em;
+      font-size: 0.7rem;
+      width: 70px;
+      height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    #contact-btn {
+      margin-left: 3em;
+      margin-top: 2.2em;
+      font-size: 0.7rem;
+      width: 200px;
+      height: 50px;
+      background:  rgb(225, 241, 191);
+      color: #131313;
+    }
+}
+
+@media (max-width: 800px) {
+    .find-the-talent-bold {
+flex-direction: column;
+text-align: center;
+align-items: center;
+      
+    }
+    #find-d-best-para {
+        margin-top: 9em;
+         font-size: 2rem;
+         
+         margin-left: 0;
+         padding-left: 0;
+         
+       }
+}
+
+@media (max-width: 915px) {
+    .vector {
+    margin-left:2em ;
+      font-size: 4rem;
+      margin-top: 0.3em;  
+    }
+}
+
+@media (max-width: 800px) {
+    .vector {
+    margin-left:2em ;
+      font-size: 2rem;
+      margin-top: 0.3em;
+      
+      
+    }
+}
+
+@media (max-width: 515px) {
+    .vector {
+    margin-left:2em ;
+      margin-top: 0.7em;
+      
+      
+    }
+}
+
+@media (max-width: 700px) {
+    #exp-easy-enhance-span {
+       line-height: 0.7;      
+    }
+    #contact-btn2 {
+        width:20%;
+       margin-right: 4em;
+      margin-top: 0.5em;       
+    }
+    .ready-footer {
+        font-size: 0.7rem;
+        
+    }
+    .last-footer {
+        margin-left: 2em;     
+    }
+    #address {
+        margin-right: 2em;
+             
+     }
+     .socials {
+        margin-right: 1.3em;
+            
+     }
+}
+
+
+
+
+
+
+
+

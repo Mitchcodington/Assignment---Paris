@@ -1,0 +1,510 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: rgba(1,78,88,255);
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 700;
+}
+
+.main-container {
+    width: 100%;
+    max-width:960;
+}
+
+@media (max-width: 900px) {
+    .main-container {
+      margin-left: 0em;
+      padding-left: 0em;
+      font-size: 0.7rem;
+      
+    }
+}
+
+img {
+    filter: brightness(80%);
+    max-width: 100%;
+}
+
+/* >>>>>>>>>>>>>Header Start>>>>>>>>>>>>>>>>>>>>>>> */
+header {
+    
+    font-family: poppins;
+    margin:2em 5em;
+}
+.h1-nav {
+    display: flex;
+}
+
+#logo {
+    color:rgb(207, 207, 15);
+}
+
+#home {
+  margin-top: 2.2em;
+  margin-left: 5em;
+  font-weight: bolder;
+}
+
+#about {
+    margin-left: 5em;
+    margin-top: 2.2em;
+    font-weight: bolder;
+    border-bottom: solid rgb(207, 207, 15) 3px;
+}
+
+#contact-btn {
+    margin-left: 48em;
+    margin-top: 1.8em;
+    width:12%;
+    height:40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: transparent;
+    color:aliceblue;
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+    background: rgb(225, 241, 191);
+    border-radius: 3px ;
+}
+
+#contact-btn:hover,
+#contact-btn:focus {
+    background:rgb(225, 241, 191);
+    color: #131313;
+}
+
+
+#contact-btn2:hover,
+#contact-btn2:focus {
+    background:rgb(225, 241, 191);
+    color: #131313;
+}
+
+@media (max-width: 900px) {
+    .h1-nav {
+      margin-left: 0px;
+     font-size: 0.7rem;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    #contact-btn {
+      margin-left: 25em;
+      margin-top: 3em;
+    }
+}
+
+@media (max-width: 1000px) {
+    #contact-btn {
+      margin-left: 11em;
+      margin-top: 3em;
+    }
+}
+
+@media (max-width: 950px) {
+    #contact-btn {
+      margin-left: 16em;
+      margin-top: 2.5em;
+      font-size: 0.7rem;
+      width: 70px;
+      height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    #contact-btn {
+      margin-left: 3em;
+      margin-top: 2.2em;
+      font-size: 0.7rem;
+      width: 200px;
+      height: 50px;
+      background:  rgb(225, 241, 191);
+      color: #131313;
+    }
+}
+/* ######### Header End ########################################## */
+
+/* >>>>>>>>> Class Section One Start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.sec1-sub {
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins;
+    margin:2em 5em;
+}
+
+@media (max-width: 700px) {
+    .sec1-sub {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+#about-head {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2em;
+    color: rgb(207, 207, 15);
+    
+}
+
+@media (max-width: 900px) {
+    #about-head {
+    margin:0em auto;
+    }
+}
+
+#sec1-para {
+    margin-top: 6.5em;
+    margin-right: 1em;
+}
+
+@media (max-width: 900px) {
+    #sec1-para {
+      margin-top:0em;
+      padding-top: 0em;
+      font-size: large;
+      text-align:left;
+      margin-left:2em;
+    }
+}
+
+#border{
+    border-top: solid rgb(10, 209, 149) 8px;
+    width: 15%;
+}
+
+#geos {
+    margin-left: 4em;
+}
+
+#geo4 {
+    margin-left: 34em;
+    
+}
+/* ######### Class Section One Ends############################### */
+
+/* >>>>>>>>> Class Section Two Starts >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.directors-main {
+    background: rgba(1,64,71,255);
+    padding:3em 0;
+    font-family: poppins;
+    font-size: 100;
+}
+
+.mini-backgrd {
+    background-color:rgba(3,46,52,255);
+    width:25%;
+    padding:1em 1em;
+}
+
+@media (max-width: 900px) {
+    .mini-backgrd {
+    width:80%;
+    padding: 0px 0px;
+    }
+}
+
+#meet-dir {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: poppins;
+    margin:3em 0;
+}
+
+.directors-top {
+    display: flex;
+    margin: 0 9em;
+    justify-content: space-between;
+    line-height: 3em;
+    text-align: center;
+}
+
+
+@media (max-width: 900px) {
+    .directors-top {
+    flex-direction: column;
+    align-items: center;
+    }
+    .directors-bottom {
+        flex-direction: column;
+        align-items: center;
+        }
+   
+}
+ 
+.directors-bottom {
+    display: flex;
+    margin: 0 9em;
+    justify-content: space-between;
+    line-height: 3em;
+    text-align: center;
+}
+
+#director-marks {
+    margin-left: 2em;
+}
+
+@media (max-width: 900px) {
+    #director-marks {
+    margin-left: 0px;
+    }
+}
+
+#director-hamer {
+    margin-right: 2.2em;
+}
+
+@media (max-width: 900px) {
+    #director-hamer {
+    margin-left: 2em;
+    }
+}
+
+#director-duncan {
+    margin-left: .2em;
+}
+
+#director-drake {
+    margin-left: 2em;
+}
+
+@media (max-width: 900px) {
+    #director-drake {
+    margin-left: 0px;
+    }
+}
+
+#director-wise {
+    margin-left: .2em;
+}
+
+#aden {
+    line-height: 1.85em;
+    margin-right: 2em;
+}
+
+@media (max-width: 900px) {
+    #aden {
+    margin-left:2em;
+    }
+}
+
+.imgs {
+    vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+    background:rgba(246,126,127,255);
+    border-radius: 50px;
+    color:black
+}
+
+.social {
+    border-radius: 50px;
+}
+
+#name-bold {
+    font-weight: bolder;
+    font-size: 200;
+}
+
+/* ##################### SECTION TWO ENDS########################################## */
+
+/* >>>>>>>>>>>>>>>>>>>> SECTION THREE STARTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.the-three-para {
+    display: flex;
+    justify-content: space-between;
+    margin:2em 5em;
+    
+}
+
+ #sec3-head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: poppins;
+    margin:2em 5em;
+ }
+
+ @media (max-width: 900px) {
+    #sec3-head {
+    font-size: 1.5rem;
+    }
+}
+
+ #quotation1 {
+    margin-bottom: 16em;
+ }
+
+.names {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+#verge {
+    margin-left: 3em;
+    line-height: 1.7em;
+    margin-right: 3em;
+    
+}
+
+@media (max-width: 900px) {
+    #verge,#post,#guardian,#tech,#gadget {
+    width: 100%;
+    }
+}
+
+#post {
+    margin-left:3em;
+    margin-right: 3em;
+    line-height: 1.7em;
+}
+
+#guardian {
+    margin-left: 2em;
+    line-height: 1.7em;
+    margin-right: 3em;
+}
+
+#tech {
+    margin-left: 2em;
+    line-height: 1.7em;
+    margin-right: 3em;
+}
+
+#gadget {
+    margin-left: 2em;
+    line-height: 1.7em;
+    margin-right: 3em;
+}
+
+
+/* ############# END SECTION THREE############################## */
+
+/* >>>>>>>>>>>>> FOOTER ONE STARTS~>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.ready-footer {
+   max-width: 1800px;
+    margin-top: 3em;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: poppins;
+    background:rgba(246,126,127,255); 
+    color: rgba(1,78,88,255);  
+}
+
+@media (max-width: 700px) {
+    .ready-footer {
+        font-size: 0.7rem;
+        
+    }
+}
+
+.inner {
+    width: 100%;
+    margin-left: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-btn2 {
+   margin-right: 19em;
+    margin-top: 2.2em;
+    width:10%;
+    height:30px;
+    border-radius: 20px;
+    background: transparent;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+@media (max-width: 700px) {
+    #contact-btn2 {
+        width:20%;
+       margin-right: 4em;
+      margin-top: 0.5em;       
+    }
+}
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    font-family: poppins;
+    padding-bottom: 0px;
+    margin-left: 7em;
+}
+
+@media (max-width: 700px) {
+    .last-footer {
+        margin-left: 2em;     
+    }
+}
+
+ #address {
+    margin-right: 7em;
+    
+ }
+
+ @media (max-width: 700px) {
+    #address {
+       margin-right: 2em;
+            
+    }
+}
+
+ .socials {
+    display: flex;
+    justify-content:end;
+    margin-bottom: 3em;
+    margin-right: 7em;
+    margin-top: 0px;
+ }
+
+ @media (max-width: 700px) {
+    .socials {
+       margin-right: 1em;
+           
+    }
+}
+
+ #facebook {
+    margin-right: 2em;
+ }
+
+
+
+ #pin {
+    margin-right: 2em;
+ }
+
+ #twit {
+    margin-right: 2em;
+ }
+
+
+
+#about-footer {
+    margin-left: 2em;
+}
