@@ -37,6 +37,28 @@ header {font-family: poppins;
     margin-top: 2.2em;
 }
 
+.callus {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .phone-number {
+    display: none;
+    position: absolute;
+    background-color:rgba(1,78,88,255);
+    font-weight: bold;
+    font-family: poppins;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: 36em;
+  }
+  
+  .callus:hover .phone-number {
+    display: block;
+  }
+
 #contact-btn {
     margin-left:45em;
     margin-top: 1.8em;
@@ -60,8 +82,8 @@ a {
     color: #131313;
 }
 
-#contact-btn2:hover,
-#contact-btn2:focus {
+#btn:hover,
+#btn:focus {
     background:rgb(225, 241, 191);
     color: #131313;
 }
@@ -327,19 +349,44 @@ a:focus {
     width: 100%;
     margin-left: 4em;
     display: flex;
-    justify-content: space-between;
+    
 }
 
-#contact-btn2 {
-   margin-right: 19em;
-    margin-top: 2.2em;
-    width:10%;
-    height:8vh;
-    border-radius: 20px;
-    background: transparent;
+.callus2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .phone-number2 {
+    display: none;
+    position: absolute;
+    background:rgba(1,78,88,255);
+    font-size: 0.9rem;
     font-weight: bold;
     font-family: poppins;
-}
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: 39.6em;
+    color: aliceblue;
+  }
+  
+  .callus2:hover .phone-number2 {
+    display: block;
+  }
+  #btn {
+    margin-left:45em;
+    margin-top: 1.8em;
+    width:15%;
+    height:40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background:rgba(1,78,88,255) ;
+    color:aliceblue;
+    font-family: poppins;
+  }
 
 
 

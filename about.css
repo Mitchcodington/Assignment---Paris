@@ -53,10 +53,33 @@ header {
     border-bottom: solid rgb(207, 207, 15) 3px;
 }
 
+.callus {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .phone-number {
+    display: none;
+    position: absolute;
+    background-color:rgba(1,78,88,255);
+    font-weight: bold;
+    font-family: poppins;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: 35em;
+  }
+  
+  .callus:hover .phone-number {
+    display: block;
+  }
+
 #contact-btn {
-    margin-left: 48em;
+    margin-left:45em;
     margin-top: 1.8em;
-    width:12%;
+    width:15%;
     height:40px;
     font-weight: bold;
     border-radius: 20px;
@@ -70,6 +93,18 @@ a {
     color: inherit;
 }
 
+#contact-btn:hover,
+#contact-btn:focus {
+    background:rgb(225, 241, 191);
+    color: #131313;
+}
+
+#btn:hover,
+#btn:focus {
+    background:rgb(225, 241, 191);
+    color: #131313;
+}
+
 a:hover,
 a:focus {
     color: #131313;
@@ -77,18 +112,6 @@ a:focus {
     border-radius: 3px ;
 }
 
-#contact-btn:hover,
-#contact-btn:focus {
-    background:rgb(225, 241, 191);
-    color: #131313;
-}
-
-
-#contact-btn2:hover,
-#contact-btn2:focus {
-    background:rgb(225, 241, 191);
-    color: #131313;
-}
 
 @media (max-width: 900px) {
     .h1-nav {
@@ -208,6 +231,7 @@ a:focus {
     background-color:rgba(3,46,52,255);
     width:25%;
     padding:1em 1em;
+    border-radius: 10px;
 }
 
 @media (max-width: 900px) {
@@ -423,21 +447,49 @@ a:focus {
 
 .inner {
     width: 100%;
-    margin-left: 4em;
+    margin-left: 1em;
     display: flex;
     justify-content: space-between;
 }
 
-#contact-btn2 {
-   margin-right: 19em;
-    margin-top: 2.2em;
-    width:10%;
-    height:30px;
-    border-radius: 20px;
-    background: transparent;
+.callus2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .phone-number2 {
+    display: none;
+    position: absolute;
+    background:rgba(1,78,88,255);
+    font-size: 0.9rem;
     font-weight: bold;
     font-family: poppins;
-}
+    text-align: center;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-right: 5em;
+    color: aliceblue;
+   
+  }
+  
+  .callus2:hover .phone-number2 {
+    display: block;
+  }
+  #btn {
+    margin-right:24em;
+    margin-top: 1.8em;
+    width:30%;
+    height:40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background:rgba(1,78,88,255) ;
+    color:aliceblue;
+    font-family: poppins;
+
+  }
+
 
 @media (max-width: 700px) {
     #contact-btn2 {
